@@ -213,9 +213,11 @@ CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qbuffer.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qbytearray.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qchar.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qconfig.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qcontiguouscache.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qcoreapplication.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qcoreevent.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qdatastream.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qdebug.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qeventloop.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qfeatures.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qfile.h
@@ -229,6 +231,7 @@ CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qlist.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qlocale.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qmap.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qmargins.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qmath.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qmetatype.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qmimedata.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qnamespace.h
@@ -249,6 +252,8 @@ CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qstring.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qstringbuilder.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qstringlist.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qstringmatcher.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qtextcodec.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qtextstream.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qvariant.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtCore/qvector.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/QAction
@@ -271,6 +276,7 @@ CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qcolor.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qcursor.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qdesktopwidget.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qdrag.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qdrawutil.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qevent.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qfont.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qfontinfo.h
@@ -285,8 +291,11 @@ CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qmacdefines_mac.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qmatrix.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qmime.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qpaintdevice.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qpaintengine.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qpainter.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qpainterpath.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qpalette.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qpen.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qpixmap.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qplatformwindow_qpa.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
@@ -300,6 +309,7 @@ CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qstyle.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qstyleoption.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qtabbar.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qtabwidget.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qtextoption.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qtransform.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qtransportauth_qws.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qvalidator.h
@@ -307,6 +317,26 @@ CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qwidget.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qwindowdefs.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qwindowdefs_win.h
 CMakeFiles/plot.dir/main.cpp.o: /usr/include/qt4/QtGui/qwmatrix.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_global.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_graphic.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_interval.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_legend_data.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_math.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_null_paintdevice.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_plot.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_plot_curve.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_plot_dict.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_plot_item.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_plot_seriesitem.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_point_3d.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_point_polar.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_samples.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_scale_div.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_scale_map.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_series_data.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_series_store.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_text.h
+CMakeFiles/plot.dir/main.cpp.o: /usr/local/qwt-6.1.3/include/qwt_transform.h
 CMakeFiles/plot.dir/main.cpp.o: ui_form.h
 
 CMakeFiles/plot.dir/moc_form.cxx.o: moc_form.cxx
@@ -352,9 +382,11 @@ CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qbuffer.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qbytearray.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qchar.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qconfig.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qcontiguouscache.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qcoreapplication.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qcoreevent.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qdatastream.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qdebug.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qeventloop.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qfeatures.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qfile.h
@@ -368,6 +400,7 @@ CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qlist.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qlocale.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qmap.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qmargins.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qmath.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qmetatype.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qmimedata.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qnamespace.h
@@ -388,6 +421,8 @@ CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qstring.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qstringbuilder.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qstringlist.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qstringmatcher.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qtextcodec.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qtextstream.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qvariant.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtCore/qvector.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/QAction
@@ -410,6 +445,7 @@ CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qcolor.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qcursor.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qdesktopwidget.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qdrag.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qdrawutil.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qevent.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qfont.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qfontinfo.h
@@ -424,8 +460,11 @@ CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qmacdefines_mac.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qmatrix.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qmime.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qpaintdevice.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qpaintengine.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qpainter.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qpainterpath.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qpalette.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qpen.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qpixmap.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qplatformwindow_qpa.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
@@ -439,6 +478,7 @@ CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qstyle.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qstyleoption.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qtabbar.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qtabwidget.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qtextoption.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qtransform.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qtransportauth_qws.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qvalidator.h
@@ -446,5 +486,25 @@ CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qwidget.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qwindowdefs.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qwindowdefs_win.h
 CMakeFiles/plot.dir/moc_form.cxx.o: /usr/include/qt4/QtGui/qwmatrix.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_global.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_graphic.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_interval.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_legend_data.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_math.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_null_paintdevice.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_plot.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_plot_curve.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_plot_dict.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_plot_item.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_plot_seriesitem.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_point_3d.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_point_polar.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_samples.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_scale_div.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_scale_map.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_series_data.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_series_store.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_text.h
+CMakeFiles/plot.dir/moc_form.cxx.o: /usr/local/qwt-6.1.3/include/qwt_transform.h
 CMakeFiles/plot.dir/moc_form.cxx.o: ui_form.h
 

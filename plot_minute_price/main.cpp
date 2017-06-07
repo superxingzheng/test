@@ -115,7 +115,8 @@ int updatePlot(std::string &path, float* price) {
 	std::ofstream outfile(path.c_str());
 
 	for (int i = 0; i < 180; i++) {
-		outfile << i << ' ' << price[i] << endl;
+		//outfile << i << ' ' << price[i] << endl;
+		outfile << price[i] << endl;
 	}
 
 	outfile.close();

@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/zheng/Gits/my_github/test/qt_test/build/moc_form.cxx
-../form.h
 /home/zheng/Gits/my_github/test/qt_test/form.h
-
-/home/zheng/Gits/my_github/test/qt_test/form.cpp
-form.h
-/home/zheng/Gits/my_github/test/qt_test/form.h
+ui_form.h
+/home/zheng/Gits/my_github/test/qt_test/ui_form.h
 qwt_plot.h
 -
 qwt_plot_curve.h
@@ -20,11 +16,11 @@ qwt_plot_curve.h
 qwt_series_data.h
 -
 
-/home/zheng/Gits/my_github/test/qt_test/form.h
-ui_form.h
-/home/zheng/Gits/my_github/test/qt_test/ui_form.h
-
 /home/zheng/Gits/my_github/test/qt_test/main.cpp
+iostream
+-
+fstream
+-
 QApplication
 -
 form.h
