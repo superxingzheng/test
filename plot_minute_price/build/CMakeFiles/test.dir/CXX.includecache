@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zheng/Gits/my_github/test/plot_minute_price/main.cpp
+iostream
+-
+math.h
+-
+pqxx/pqxx
+-
+
