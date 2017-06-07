@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zheng/Gits/my_github/test/libpqxx/main.cpp
+iostream
+-
+math.h
+-
+pqxx/pqxx
+-
+
