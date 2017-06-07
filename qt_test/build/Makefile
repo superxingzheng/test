@@ -99,24 +99,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named QWT
+# Target rules for targets named plot
 
 # Build rule for target.
-QWT: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QWT
-.PHONY : QWT
+plot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plot
+.PHONY : plot
 
 # fast build rule for target.
-QWT/fast:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/build
-.PHONY : QWT/fast
+plot/fast:
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/build
+.PHONY : plot/fast
+
+#=============================================================================
+# Target rules for targets named updateData
+
+# Build rule for target.
+updateData: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 updateData
+.PHONY : updateData
+
+# fast build rule for target.
+updateData/fast:
+	$(MAKE) -f CMakeFiles/updateData.dir/build.make CMakeFiles/updateData.dir/build
+.PHONY : updateData/fast
 
 form.o: form.cpp.o
 .PHONY : form.o
 
 # target to build an object file
 form.cpp.o:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/form.cpp.o
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/form.cpp.o
 .PHONY : form.cpp.o
 
 form.i: form.cpp.i
@@ -124,7 +137,7 @@ form.i: form.cpp.i
 
 # target to preprocess a source file
 form.cpp.i:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/form.cpp.i
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/form.cpp.i
 .PHONY : form.cpp.i
 
 form.s: form.cpp.s
@@ -132,7 +145,7 @@ form.s: form.cpp.s
 
 # target to generate assembly for a file
 form.cpp.s:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/form.cpp.s
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/form.cpp.s
 .PHONY : form.cpp.s
 
 main.o: main.cpp.o
@@ -140,7 +153,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -148,7 +161,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -156,7 +169,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 moc_form.o: moc_form.cxx.o
@@ -164,7 +177,7 @@ moc_form.o: moc_form.cxx.o
 
 # target to build an object file
 moc_form.cxx.o:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/moc_form.cxx.o
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/moc_form.cxx.o
 .PHONY : moc_form.cxx.o
 
 moc_form.i: moc_form.cxx.i
@@ -172,7 +185,7 @@ moc_form.i: moc_form.cxx.i
 
 # target to preprocess a source file
 moc_form.cxx.i:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/moc_form.cxx.i
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/moc_form.cxx.i
 .PHONY : moc_form.cxx.i
 
 moc_form.s: moc_form.cxx.s
@@ -180,8 +193,32 @@ moc_form.s: moc_form.cxx.s
 
 # target to generate assembly for a file
 moc_form.cxx.s:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/moc_form.cxx.s
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/moc_form.cxx.s
 .PHONY : moc_form.cxx.s
+
+updateData.o: updateData.cpp.o
+.PHONY : updateData.o
+
+# target to build an object file
+updateData.cpp.o:
+	$(MAKE) -f CMakeFiles/updateData.dir/build.make CMakeFiles/updateData.dir/updateData.cpp.o
+.PHONY : updateData.cpp.o
+
+updateData.i: updateData.cpp.i
+.PHONY : updateData.i
+
+# target to preprocess a source file
+updateData.cpp.i:
+	$(MAKE) -f CMakeFiles/updateData.dir/build.make CMakeFiles/updateData.dir/updateData.cpp.i
+.PHONY : updateData.cpp.i
+
+updateData.s: updateData.cpp.s
+.PHONY : updateData.s
+
+# target to generate assembly for a file
+updateData.cpp.s:
+	$(MAKE) -f CMakeFiles/updateData.dir/build.make CMakeFiles/updateData.dir/updateData.cpp.s
+.PHONY : updateData.cpp.s
 
 # Help Target
 help:
@@ -189,9 +226,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... QWT"
 	@echo "... edit_cache"
+	@echo "... plot"
 	@echo "... rebuild_cache"
+	@echo "... updateData"
 	@echo "... form.o"
 	@echo "... form.i"
 	@echo "... form.s"
@@ -201,6 +239,9 @@ help:
 	@echo "... moc_form.o"
 	@echo "... moc_form.i"
 	@echo "... moc_form.s"
+	@echo "... updateData.o"
+	@echo "... updateData.i"
+	@echo "... updateData.s"
 .PHONY : help
 
 

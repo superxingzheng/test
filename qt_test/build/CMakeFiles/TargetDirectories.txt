@@ -1,1 +1,2 @@
-/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/QWT.dir
+/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/plot.dir
+/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/updateData.dir

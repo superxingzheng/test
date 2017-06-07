@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zheng/Gits/my_github/test/qt_test/form.cpp" "/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/QWT.dir/form.cpp.o"
-  "/home/zheng/Gits/my_github/test/qt_test/main.cpp" "/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/QWT.dir/main.cpp.o"
-  "/home/zheng/Gits/my_github/test/qt_test/build/moc_form.cxx" "/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/QWT.dir/moc_form.cxx.o"
+  "/home/zheng/Gits/my_github/test/qt_test/form.cpp" "/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/plot.dir/form.cpp.o"
+  "/home/zheng/Gits/my_github/test/qt_test/main.cpp" "/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/plot.dir/main.cpp.o"
+  "/home/zheng/Gits/my_github/test/qt_test/build/moc_form.cxx" "/home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles/plot.dir/moc_form.cxx.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/zheng/Gits/my_github/test/qt_test/build/moc_form.cxx
+../form.h
+/home/zheng/Gits/my_github/test/qt_test/form.h
+
 /home/zheng/Gits/my_github/test/qt_test/form.cpp
 form.h
 /home/zheng/Gits/my_github/test/qt_test/form.h

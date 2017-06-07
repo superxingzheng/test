@@ -53,38 +53,73 @@ CMAKE_SOURCE_DIR = /home/zheng/Gits/my_github/test/qt_test
 CMAKE_BINARY_DIR = /home/zheng/Gits/my_github/test/qt_test/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/QWT.dir
+# Target rules for target CMakeFiles/plot.dir
 
 # All Build rule for target.
-CMakeFiles/QWT.dir/all:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/depend
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/build
+CMakeFiles/plot.dir/all:
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/depend
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles  1 2 3 4 5
-	@echo "Built target QWT"
-.PHONY : CMakeFiles/QWT.dir/all
+	@echo "Built target plot"
+.PHONY : CMakeFiles/plot.dir/all
 
 # Include target in all.
-all: CMakeFiles/QWT.dir/all
+all: CMakeFiles/plot.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QWT.dir/rule: cmake_check_build_system
+CMakeFiles/plot.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QWT.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/plot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles 0
-.PHONY : CMakeFiles/QWT.dir/rule
+.PHONY : CMakeFiles/plot.dir/rule
 
 # Convenience name for target.
-QWT: CMakeFiles/QWT.dir/rule
-.PHONY : QWT
+plot: CMakeFiles/plot.dir/rule
+.PHONY : plot
 
 # clean rule for target.
-CMakeFiles/QWT.dir/clean:
-	$(MAKE) -f CMakeFiles/QWT.dir/build.make CMakeFiles/QWT.dir/clean
-.PHONY : CMakeFiles/QWT.dir/clean
+CMakeFiles/plot.dir/clean:
+	$(MAKE) -f CMakeFiles/plot.dir/build.make CMakeFiles/plot.dir/clean
+.PHONY : CMakeFiles/plot.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/QWT.dir/clean
+clean: CMakeFiles/plot.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/updateData.dir
+
+# All Build rule for target.
+CMakeFiles/updateData.dir/all:
+	$(MAKE) -f CMakeFiles/updateData.dir/build.make CMakeFiles/updateData.dir/depend
+	$(MAKE) -f CMakeFiles/updateData.dir/build.make CMakeFiles/updateData.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles  6
+	@echo "Built target updateData"
+.PHONY : CMakeFiles/updateData.dir/all
+
+# Include target in all.
+all: CMakeFiles/updateData.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/updateData.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/updateData.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zheng/Gits/my_github/test/qt_test/build/CMakeFiles 0
+.PHONY : CMakeFiles/updateData.dir/rule
+
+# Convenience name for target.
+updateData: CMakeFiles/updateData.dir/rule
+.PHONY : updateData
+
+# clean rule for target.
+CMakeFiles/updateData.dir/clean:
+	$(MAKE) -f CMakeFiles/updateData.dir/build.make CMakeFiles/updateData.dir/clean
+.PHONY : CMakeFiles/updateData.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/updateData.dir/clean
 .PHONY : clean
 
 #=============================================================================

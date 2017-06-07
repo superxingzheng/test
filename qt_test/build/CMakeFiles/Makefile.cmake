@@ -75,5 +75,6 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/QWT.dir/DependInfo.cmake"
+  "CMakeFiles/plot.dir/DependInfo.cmake"
+  "CMakeFiles/updateData.dir/DependInfo.cmake"
   )

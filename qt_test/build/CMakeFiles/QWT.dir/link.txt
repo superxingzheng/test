@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/QWT.dir/main.cpp.o CMakeFiles/QWT.dir/form.cpp.o CMakeFiles/QWT.dir/moc_form.cxx.o  -o QWT  -L/usr/local/qwt-6.1.3/lib -rdynamic -lQtGui -lQtCore -lqwt -Wl,-rpath,/usr/local/qwt-6.1.3/lib 
