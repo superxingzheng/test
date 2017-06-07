@@ -1,0 +1,9 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-DQT_NO_DEBUG
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/home/zheng/Gits/my_github/test/qt_test/build/moc_form.cxx
+/home/zheng/Gits/my_github/test/qt_test/form.h

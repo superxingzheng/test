@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+777f3b682c4c1e5b33d97d14c413da4c moc_form.cxx
+bed9b5885eaaadfd1b85532b53ba03f7 ui_form.h
