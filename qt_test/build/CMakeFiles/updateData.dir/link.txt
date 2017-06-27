@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/updateData.dir/updateData.cpp.o  -o updateData  -L/usr/local/qwt-6.1.3/lib -rdynamic -lpqxx -lpq -Wl,-rpath,/usr/local/qwt-6.1.3/lib 
