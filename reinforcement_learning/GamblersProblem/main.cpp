@@ -108,9 +108,12 @@ std::vector<State> update_state_value(
 			// cout << "next_state_head_value = " << next_state_head_value << endl;
 			// cout << "next_state_tail_value = " << next_state_tail_value << endl;
 			// }
-
+			
+			// NOTE: The reward gained by getting to the goal state is +1.
+			// but we should not add the reward +1 to the transition if we set
+			// the value of the goal state to +1.
 			if (next_state_head_capital == 100) {
-				head_reward = winning_reward;
+				head_reward = zero_reward;
 				//cout << "next_state_head_capital == 100" << endl;
 			} else {
 				head_reward = zero_reward;
