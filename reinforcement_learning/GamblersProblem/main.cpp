@@ -92,22 +92,22 @@ std::vector<State> update_state_value(
 			// when the coin is tail, next state equals current state minus stake (*act)
 			int next_state_tail_capital = current_experience[i].capital - *act;
 
-			/*if (i == 50) {
-			 cout << "action = " << *act << endl;
-			 cout << "next_state_head_capital = " << next_state_head_capital << endl;
-			 cout << "next_state_tail_capital = " << next_state_tail_capital << endl;
-			 }*/
+			//if (i == 50) {
+			// cout << "action = " << *act << endl;
+			// cout << "next_state_head_capital = " << next_state_head_capital << endl;
+			// cout << "next_state_tail_capital = " << next_state_tail_capital << endl;
+			// }
 
 			next_state_head_value =
 					current_experience[next_state_head_capital].value;
 			next_state_tail_value =
 					current_experience[next_state_tail_capital].value;
 
-			/*if (i == 50) {
-			 cout << "action = " << *act << endl;
-			 cout << "next_state_head_value = " << next_state_head_value << endl;
-			 cout << "next_state_tail_value = " << next_state_tail_value << endl;
-			 }*/
+			//if (i == 50) {
+			// cout << "action = " << *act << endl;
+			// cout << "next_state_head_value = " << next_state_head_value << endl;
+			// cout << "next_state_tail_value = " << next_state_tail_value << endl;
+			// }
 
 			if (next_state_head_capital == 100) {
 				head_reward = winning_reward;
