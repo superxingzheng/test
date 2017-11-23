@@ -23,9 +23,9 @@ void sigchld_handler(int sig) {
 	/*
 	 * waitpid(): on success, returns the process ID of the child whose
 	 * state has changed; if WNOHANG was specified and one or more
-	 * child(ren) specified by pid exist, but have not yet changed state,
-	 * then 0 is returned.  On error, -1 is returned.
-	 * 
+	 * children specified by pid exist, but have not yet changed state,
+	 * then 0 is returned. On error, -1 is returned.
+	 * (in this case pid is -1, meaning any child)
 	 */
 	while ((pid = waitpid(-1, &status, WNOHANG)) != -1) {
 		if (pid == 0) {
@@ -58,7 +58,7 @@ void sigchld_handler(int sig) {
 int main(int argc, char** argv) {
 	using namespace std;
 
-	int process_num = 4;
+	int process_num = 2;
 
 	pid_t pid[process_num];
 
@@ -72,20 +72,12 @@ int main(int argc, char** argv) {
 			switch (i) {
 			case 0:
 				cout << "In child process numer " << i << endl;
-				sleep(5);
+				sleep(10);
 				break;
 			case 1:
 				cout << "In child process numer " << i << endl;
 				//exit(EXIT_FAILURE);
-				sleep(5);
-				break;
-			case 2:
-				cout << "In child process numer " << i << endl;
-				sleep(5);
-				break;
-			case 3:
-				cout << "In child process numer " << i << endl;
-				sleep(5);
+				sleep(10);
 				break;
 			default:
 				break;
@@ -106,16 +98,20 @@ int main(int argc, char** argv) {
 			cerr << "Error: failed to fork() in launch()" << endl;
 			// In case of fork() failure, terminate all processes in group
 			// before exit()
-			kill(0, SIGTERM);
-			exit (EXIT_FAILURE);
+			//kill(0, SIGTERM);
+			//exit (EXIT_FAILURE);
 		}
 	}
-
-	for (int i = 0; i < 20; i++) {
-		sleep(1);
+	
+	while(1) {
+		sleep(10);
 	}
 
-	//cout << "Parent process finished." << endl;
+	// The following can be used as a timeout setting.
+	/*for (int i = 0; i < 30; i++) {
+		sleep(1);
+	}*/
+
 	return 0;
 }
 
