@@ -1,6 +1,6 @@
 # Template for multi-processes with fork()
 
-fork() into 4 Child Processes
+fork() into a number of Child Processes
 
 Parent process does nothing but responding to status changes of child processes
 
