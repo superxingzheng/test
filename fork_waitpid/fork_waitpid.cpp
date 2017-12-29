@@ -71,11 +71,11 @@ int main(int argc, char** argv) {
 
 			switch (i) {
 			case 0:
-				cout << "In child process numer " << i << endl;
+				cout << "In child process number " << i << endl;
 				sleep(10);
 				break;
 			case 1:
-				cout << "In child process numer " << i << endl;
+				cout << "In child process number " << i << endl;
 				//exit(EXIT_FAILURE);
 				sleep(10);
 				break;
